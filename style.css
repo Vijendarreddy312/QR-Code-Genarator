@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    background-color: cadetblue;
+}
+.container {
+    width: 400px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: aqua;
+    border-radius: 12px;
+    padding: 20px;
+
+}
+.container input{
+    margin: 15px;
+    width: 90%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    outline: none;
+}
+.container .imageBox{
+    text-align: center;
+    margin: 10px;
+}
+.container button{
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: slateblue;
+    border-radius: 10px;
+    font-weight: 500;
+    margin-left: 150px;
+    border: none;
+}
